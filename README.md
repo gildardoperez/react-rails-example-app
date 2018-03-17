@@ -3,6 +3,20 @@
 This repo is an example of a simple working Rails 5, Webpack(er)3, React-Rails 2.3+ application.
 
 Where generators are used, the git commit will be the command ran to get to the current application state so it will hopefully be easy to follow along at home.
+```
+> cd react-rails-example-app
+> bundle install
+> yarn install
+> rails s
+
+start webpack server on a separate tab:
+> ./bin/webpack-dev-server
+
+visit:
+http://localhost:3000/welcome/index
+
+verfied console log
+```
 
 ## Branches
 
